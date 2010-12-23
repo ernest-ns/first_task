@@ -1,5 +1,8 @@
 FirstTask::Application.routes.draw do
-  get "users/new"
+  resources:users
+
+  match '/createresume', :to => 'users#new'
+  root :to => 'users#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

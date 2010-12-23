@@ -12,9 +12,13 @@
 #  created_at       :datetime
 #  updated_at       :datetime
 #
+require 'document_creator.rb'
+#require 'ruby_task_pdf.rb'
+require 'ruby_task_txt.rb'
 
 class User < ActiveRecord::Base
-  attr_accessible :name, :age, :address, :file_type, :resume_file_name
+  attr_accessor :resume_file_name
+  attr_accessible :name, :age, :address, :file_type
 
   file_type_regex = /pdf|txt/
   age_regex = /(\d)/
@@ -23,11 +27,27 @@ class User < ActiveRecord::Base
   :length => {:maximum =>50}
 
   validates :age, :presence =>true,
-  :format => {:with =>age_regex}
+  :format => {:with => age_regex}
 
   validates :address, :presence => true
 
   validates :file_type, :presence =>true,
   :format => {:with => file_type_regex}
+
+  before_save :create_resume
+
+  private
+
+  def set_file_name
+    self.resume_file_name = self.name.split.join("_")+"."+self.file_type
+  end
+  def create_resume
+    set_file_name
+    
+    file_entry = "#{self.name},#{self.age},#{self.address}"
+    file_obj = DocumentCreator.create_document(self.file_type)
+    file_obj.append_to_file(self.resume_file_name,file_entry)
+  end
+
 
 end

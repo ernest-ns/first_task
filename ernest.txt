@@ -1,0 +1,4 @@
+ernest,22,blore
+ernest,0,blore
+ernest,0,blore
+ernest,12,blore
