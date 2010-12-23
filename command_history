@@ -1,0 +1,156 @@
+  383  port install emacs
+  384  ports install emacs
+  385  clear
+  386  emacs
+  387  cd
+  388  homebrew
+  389  which emacs
+  390  ls -l
+  391  ls -l /usr/bin/emacs
+  392  emacs -version
+  393  macports
+  394  ls /
+  395  ls /usr
+  396  ls /usr/local/
+  397  ls /usr/local/bin/
+  398  brew
+  399  man brew
+  400  man brew
+  401  brew -v
+  402  brew list emacs
+  403  pwd
+  404  brew update
+  405  sudo brew update
+  406  brew -v
+  407  brew install emacs
+  408  sudo brew install emacs
+  409  ls
+  410  emacs
+  411  ls
+  412  pwd
+  413  pwd
+  414  vi .profile
+  415  ll
+  416  vi .bash_profile 
+  417  vi .bash_profile 
+  418  ll
+  419  ll
+  420  vi .bash_profile 
+  421  vi .bash_profile 
+  422  ls
+  423  exit
+  424  ll
+  425  vi .profile
+  426  ll
+  427  exit
+  428  ll
+  429  vi .bash_profile
+  430  la
+  431  vi .bash_profile
+  432  emac
+  433  exit
+  434  ls /usr/local/Cellar/emacs/23.2/bin/emacs
+  435  ls /usr/local/Cellar/emacs/23.2/bin/emacs
+  436  ls /usr/local/Cellar/emacs/23.2/bin/emacs
+  437  ls /usr/local/Cellar/emacs/23.2/bin/
+  438  ls -l /usr/local/Cellar/emacs/23.2/bin/
+  439  ls -la /usr/local/Cellar/emacs/23.2/bin/
+  440  cd /usr/local/bin/
+  441  ls -la
+  442  ls -la .*
+  443  ls -la .emacs*
+  444  ls -la emacs*
+  445  emacs
+  446  pwd
+  447  ls -la
+  448  pwd
+  449  cd ..
+  450  ls
+  451  cd Cellar/
+  452  ls -la
+  453  cd emacs/
+  454  ls -la
+  455  cd 23.2/
+  456  ls -la
+  457  cd bin/
+  458  ls -la
+  459  cd ..
+  460  ls -la
+  461  cd var/
+  462  ;s -la
+  463  ls -la
+  464  cd ..
+  465  ls
+  466  cd share/
+  467  ls -la
+  468  cd emacs/
+  469  ls -la
+  470  cd 23.2/
+  471  ls -la
+  472  cd lisp/
+  473  ls -la
+  474  clear
+  475  ls
+  476  clear
+  477  cd ..
+  478  ls
+  479  cd etc/
+  480  ls
+  481  pwd
+  482  cd /usr/local/Cellar/emacs/23.2/
+  483  ls
+  484  cd bin/
+  485  ls
+  486  emacs
+  487  ls -la
+  488  ./emacs
+  489  ./emacs-23.2 
+  490  pwd
+  491  /usr/local/Cellar/emacs/23.2/bin/emacs
+  492  exit
+  493  emac
+  494  pwd
+  495  .emacs.el
+  496  vi ~/.emacs
+  497  emac Desktop/learning_rails/
+  498  emac Desktop/learning_rails/sample_app/app/models/user.rb
+  499  emac
+  500  clear
+  501  cd Desktop/learning_rails/first_task/
+  502  ls
+  503  clear
+  504  pwd
+  505  clear
+  506  annotate
+  507  cd db/
+  508  cd migrate/
+  509  ls
+  510  annotate
+  511  rake db:migrate
+  512  annotate
+  513  emac 20101223053837_create_users.rb 
+  514  rake db:migrate
+  515  annotate
+  516  cd ..
+  517  ls
+  518  cd ..
+  519  ls
+  520  cd ..
+  521  ls
+  522  cd first_task/
+  523  ls
+  524  annotate
+  525  clear
+  526  emac app/models/user.rb 
+  527  emac spec/models/user_spec.rb 
+  528  emac app/models/user.rb 
+  529  rspec spec/
+  530  emac spec/models/user_spec.rb 
+  531  rspec spec/
+  532  emac spec/models/user_spec.rb 
+  533  emac spec/models/user_spec.rb 
+  534  rspec spec/
+  535  emac spec/models/user_spec.rb 
+  536  rspec spec/
+  537  history
+  538  history >command_history
