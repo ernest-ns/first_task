@@ -3,3 +3,11 @@
 
 en:
   hello: "Hello world"
+
+  activerecord:
+    errors:
+      messages:
+        blank: "field cannot be blank"
+        not_a_number: "should be a number"
+        invalid: "is invalid"
+        too_long: "is too long"
