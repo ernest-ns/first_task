@@ -1,0 +1,10 @@
+# Logfile created on 2010-12-27 12:14:01 +0530 by logger.rb/25413
+REQUESTING PAGE: GET /createresume with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"", "age"=>"", "address"=>"", "file_type"=>""}, "commit"=>"Create Resume"} and HTTP headers {"HTTP_REFERER"=>"/createresume"}
+REQUESTING PAGE: GET /createresume with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"", "age"=>"", "address"=>"", "file_type"=>""}, "commit"=>"Create Resume"} and HTTP headers {"HTTP_REFERER"=>"/createresume"}
+REQUESTING PAGE: GET /createresume with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"", "age"=>"", "address"=>"", "file_type"=>""}, "commit"=>"Create Resume"} and HTTP headers {"HTTP_REFERER"=>"/createresume"}
+REQUESTING PAGE: GET /createresume with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"name"=>"Sample", "age"=>"23", "address"=>"blore", "file_type"=>"pdf"}, "commit"=>"Create Resume"} and HTTP headers {"HTTP_REFERER"=>"/createresume"}
+REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
