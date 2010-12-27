@@ -21,13 +21,14 @@ class User < ActiveRecord::Base
   attr_accessible :name, :age, :address, :file_type
 
   file_type_regex = /pdf|txt/
-  age_regex = /(\d)/
+  age_regex = /^[\d]+$/
 
   validates :name, :presence => true,
   :length => {:maximum =>50}
 
   validates :age, :presence =>true,
-  :format => {:with => age_regex}
+  :format => {:with => age_regex},
+  :numericality => true
 
   validates :address, :presence => true
 
