@@ -13,7 +13,7 @@
 #  updated_at       :datetime
 #
 require 'document_creator.rb'
-#require 'ruby_task_pdf.rb'
+require 'ruby_task_pdf.rb'
 require 'ruby_task_txt.rb'
 
 class User < ActiveRecord::Base
